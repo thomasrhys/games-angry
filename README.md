@@ -1,2 +1,2 @@
 # games-angry
-Github Pages build of fnf
+Github Pages build of Games
