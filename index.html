@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My HTML5 Retro Arcade</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #121212;
+            color: #e0e0e0;
+            text-align: center;
+            margin: 0;
+            padding: 40px 20px;
+        }
+        h1 {
+            color: #00ffcc;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 0 0 10px rgba(0, 255, 204, 0.3);
+        }
+        p {
+            color: #a0a0a0;
+            margin-bottom: 40px;
+        }
+        .game-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        .game-card {
+            background: linear-gradient(145deg, #1e1e1e, #252525);
+            border: 1px solid #333;
+            border-radius: 12px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+        }
+        .game-card:hover {
+            transform: translateY(-5px);
+            border-color: #00ffcc;
+            box-shadow: 0 8px 25px rgba(0, 255, 204, 0.2);
+        }
+        .game-link {
+            display: block;
+            padding: 30px 20px;
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-weight: 600;
+            height: 100%;
+            box-sizing: border-box;
+        }
+        .game-card:hover .game-link {
+            color: #00ffcc;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>🕹️ Web Arcade</h1>
+    <p>Select a game to start playing directly in your browser.</p>
+
+    <div class="game-grid">
+        <!-- Soccer Random -->
+        <div class="game-card">
+            <a class="game-link" href="soccerrandom.htm">Soccer Random</a>
+        </div>
+
+        <!-- Basket Random -->
+        <div class="game-card">
+            <a class="game-link" href="basketrandom.html">Basket Random</a>
+        </div>
+
+        <!-- Slope -->
+        <div class="game-card">
+            <a class="game-link" href="slope.html">Slope</a>
+        </div>
+
+        <!-- Slope 3 -->
+        <div class="game-card">
+            <a class="game-link" href="slope3.html">Slope 3</a>
+        </div>
+
+        <!-- Tap Road -->
+        <div class="game-card">
+            <a class="game-link" href="taproad.html">Tap Road</a>
+        </div>
+
+        <!-- Drift Boss -->
+        <div class="game-card">
+            <a class="game-link" href="driftboss.htm">Drift Boss</a>
+        </div>
+
+        <!-- Geometry Dash -->
+        <div class="game-card">
+            <a class="game-link" href="geometrydash.html">Geometry Dash</a>
+        </div>
+
+        <!-- Geometry Dash Lite -->
+        <div class="game-card">
+            <a class="game-link" href="geometrydashlite.html">Geometry Dash Lite</a>
+        </div>
+
+        <!-- Escape Road -->
+        <div class="game-card">
+            <a class="game-link" href="escaperoad.html">Escape Road</a>
+        </div>
+
+        <!-- Escape Road 2 -->
+        <div class="game-card">
+            <a class="game-link" href="escaperoad2.html">Escape Road 2</a>
+        </div>
+
+        <!-- Monkey Mart -->
+        <div class="game-card">
+            <a class="game-link" href="monkeymart.htm">Monkey Mart</a>
+        </div>
+    </div>
+
+</body>
+</html>
